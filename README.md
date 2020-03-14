@@ -1,2 +1,13 @@
 # teamspeak-afkbot
 AFK-Bot for Teamspeak Servers
+
+## Enviroment Variables
+- SERVER_ADDRESS
+- SERVER_PORT
+- QUERY_PORT
+- QUERY_USERNAME
+- QUERY_PASSWORD
+- BOT_NAME
+- AFK_CHANNEL
+- EXCLUDE_CHANNELS
+- IDLE_MINUTES
