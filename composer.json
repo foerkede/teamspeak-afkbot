@@ -1,0 +1,5 @@
+{
+    "require": {
+        "par0noid/ts3admin": "dev-master"
+    }
+}
