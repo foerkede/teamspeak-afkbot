@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1777fbc02b3dd63a2523b259a6222ba9",
+    "packages": [
+        {
+            "name": "par0noid/ts3admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/par0noid/ts3admin.class.git",
+                "reference": "5d643e5ec7ec40c2f6b5673a9167ea18d7b71353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/par0noid/ts3admin.class/zipball/5d643e5ec7ec40c2f6b5673a9167ea18d7b71353",
+                "reference": "5d643e5ec7ec40c2f6b5673a9167ea18d7b71353",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan 'par0noid' Zehnpfennig",
+                    "homepage": "https://github.com/par0noid",
+                    "role": "Developer"
+                },
+                {
+                    "name": "GitHub Contributors",
+                    "homepage": "https://github.com/par0noid/ts3admin.class/graphs/contributors",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The ts3admin.class is a powerful api for communication with Teamspeak 3 Servers from your website! Your creativity knows no bounds!",
+            "homepage": "https://github.com/par0noid/ts3admin.class",
+            "keywords": [
+                "admin",
+                "teamspeak",
+                "teamspeak3",
+                "ts3",
+                "ts3admin"
+            ],
+            "time": "2019-10-11T10:45:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "par0noid/ts3admin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
