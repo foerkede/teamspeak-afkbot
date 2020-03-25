@@ -1,5 +1,5 @@
 <?php
-use par0noid\ts3admin;
+require __DIR__ . '/vendor/autoload.php';
 
 class Connection {
 	public static function connect() {
