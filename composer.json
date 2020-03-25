@@ -1,5 +1,5 @@
 {
     "require": {
-        "par0noid/ts3admin": "dev-master"
+        "par0noid/ts3admin": "1.0.2.*"
     }
 }
