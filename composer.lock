@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1777fbc02b3dd63a2523b259a6222ba9",
+    "content-hash": "12fac23513545eda628508dd9c562716",
     "packages": [
         {
             "name": "par0noid/ts3admin",
-            "version": "dev-master",
+            "version": "1.0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/par0noid/ts3admin.class.git",
-                "reference": "5d643e5ec7ec40c2f6b5673a9167ea18d7b71353"
+                "reference": "f852f31547e68330e3b244425378be3db08a14a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/par0noid/ts3admin.class/zipball/5d643e5ec7ec40c2f6b5673a9167ea18d7b71353",
-                "reference": "5d643e5ec7ec40c2f6b5673a9167ea18d7b71353",
+                "url": "https://api.github.com/repos/par0noid/ts3admin.class/zipball/f852f31547e68330e3b244425378be3db08a14a7",
+                "reference": "f852f31547e68330e3b244425378be3db08a14a7",
                 "shasum": ""
             },
             "require": {
@@ -54,15 +54,13 @@
                 "ts3",
                 "ts3admin"
             ],
-            "time": "2019-10-11T10:45:34+00:00"
+            "time": "2018-08-30T05:50:49+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "par0noid/ts3admin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
