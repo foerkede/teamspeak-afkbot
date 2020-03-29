@@ -8,6 +8,12 @@ $afkChannel = getenv('AFK_CHANNEL');
 $idleTime = 1000*60*getenv('IDLE_MINUTES');
 
 while(1){
+	if ($ts->clientList("-times -away")["success"] == false) {
+		error_log('trying to reconnect after 5 seconds ...');
+		sleep(5);
+		$ts = Connection::connect();
+		continue;
+	}
 	foreach($ts->clientList("-times -away")["data"] as $c){
 		if (!in_array($c["cid"], $excludeChannels) && ($c["client_away"] == 1 || ($c["client_idle_time"] > $idleTime))) {
 			$afk[$c["clid"]] = $c["cid"];
